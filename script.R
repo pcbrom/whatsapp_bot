@@ -1,5 +1,5 @@
 library(RSelenium)
-rD = rsDriver(browser = "firefox", check = F, verbose = F) #, extraCapabilities = list("moz:firefoxOptions" = list(args = list('--headless')))
+rD = rsDriver(browser = "firefox", check = F, verbose = F)
 remDr = rD[["client"]]
 remDr$navigate("https://web.whatsapp.com/")
 Sys.sleep(30)

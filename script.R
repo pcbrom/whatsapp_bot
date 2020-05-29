@@ -9,7 +9,7 @@ remDr$navigate("https://web.whatsapp.com/")
 Sys.sleep(30)
 webElem = remDr$findElement(using = 'xpath', "//div[@title='Nova conversa']")$clickElement()
 webElem = remDr$findElement(using = 'xpath', "//div[@contenteditable='true']")
-webElem$sendKeysToElement(list("blackbeltR.com.br"))
+webElem$sendKeysToElement(list("nome do contato"))
 Sys.sleep(3)
 webElem$sendKeysToElement(list(key = "enter"))
 for (i in 1:length(txt.zap)) {

@@ -1,6 +1,3 @@
-library(rvest)
-library(dplyr)
-library(XML)
 library(RSelenium)
 
 rD = rsDriver(browser = "firefox", check = F, verbose = F) #, extraCapabilities = list("moz:firefoxOptions" = list(args = list('--headless')))
